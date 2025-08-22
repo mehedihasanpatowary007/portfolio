@@ -10,7 +10,7 @@ export default function Hero() {
   };
 
   return (
-    <section id="hero" className="relative flex flex-col md:flex-row items-center justify-center md:justify-between px-6 md:px-16 lg:px-32 py-16 min-h-screen bg-gradient-to-b from-[#1D3557] to-[#1a2a40]">
+    <section id="hero" className="relative flex flex-col lg:flex-row items-center justify-center lg:justify-between px-6 lg:px-32 py-16 min-h-screen bg-gradient-to-b from-[#1D3557] to-[#1a2a40]">
       {/* Left Content */}
       <motion.div
         initial={{ opacity: 0, x: -50 }}
